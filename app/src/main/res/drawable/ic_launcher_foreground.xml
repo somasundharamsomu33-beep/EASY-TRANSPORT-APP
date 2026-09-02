@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Speed trail left -->
+    <path
+        android:pathData="M28,68 L48,36 L56,36 L36,68 Z"
+        android:fillColor="#00F2FE" />
+
+    <!-- Speed trail right (Crossing X) -->
+    <path
+        android:pathData="M80,68 L60,36 L52,36 L72,68 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- Center Speed Arrow Core -->
+    <path
+        android:pathData="M54,28 L68,52 L58,50 L54,42 L50,50 L40,52 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="28"
+                android:endX="54"
+                android:endY="52"
+                android:type="linear">
+                <item android:color="#F59E0B" android:offset="0.0" />
+                <item android:color="#EF4444" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Bottom Pulse Dot -->
+    <path
+        android:pathData="M54,74 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0"
+        android:fillColor="#38BDF8" />
+
+</vector>

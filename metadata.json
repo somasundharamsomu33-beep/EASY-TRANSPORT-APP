@@ -1,0 +1,6 @@
+{
+  "name": "RideX",
+  "description": "Production ride-hailing platform connecting passengers and drivers in real time with dynamic fare engine, ride tracking, safety center, driver verification, and AI ride assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
